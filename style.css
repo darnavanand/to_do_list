@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, grey 50%, black 50%);
+}
+
+.container{
+    height: 500px;
+    width: 400px;
+    background: white;
+    padding: 10px;
+    overflow-y: auto;
+    box-shadow: 0 5px 10px rgb(110, 233, 233);
+    position: relative;
+}
+.in{
+    height: 50px;
+    background: rgb(177, 172, 172);
+    width: 90%;
+    display: inline-block;
+}
+.clear{
+    display: block;
+    position: absolute;
+    right: 50%;
+    margin: 8px;
+}
+
+.clear:hover{
+    cursor: pointer;
+}
+.fa-solid{
+    display: inline-block;
+}
+.fa-solid:hover{
+    cursor: pointer;
+}
+#list{
+    text-decoration: none;
+    margin-top: 25px;
+}
+#list li{
+    
+    margin: 10px;
+    list-style:circle;
+    font-size: 20px;
+    background: rgb(187, 181, 181);
+}
+
+#list li span{
+    padding: 10px;
+}
